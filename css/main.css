@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	font-family: 'Open Sans','helvetica',arial,sans-serif;
   	font-weight: 300;
@@ -124,4 +132,43 @@ h1, h2, h3, h4, h5, h6 {
 	float: left;
     	width: 33.3%;	
   	background: url(../img/skill-product.png) center top no-repeat;
+}
+
+.education-experience {
+	padding-top: 100px;
+}
+
+.education-experience__list {
+  	list-style: none;
+  	padding: 0; 
+  	margin: 0;
+}
+
+.education-experience__list li img {
+	width: 180px;
+	float: left;	
+ 	clear: both;
+}
+
+.content {
+	overflow: hidden;
+	text-align: left;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+
+.photos__list {
+  	list-style: none;
+  	margin: 0;	
+}
+
+.photos__list img {
+	float: left;
+	padding:  10px;
+	width: 25%;
+}
+
+.photos__list p {
+	overflow: hidden;
 }
